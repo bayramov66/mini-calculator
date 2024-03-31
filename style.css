@@ -1,43 +1,71 @@
-button{
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #3498db;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
-button:hover{
-    background-color: red;
+
+.calculator-container {
+  padding-top: 150px;
+  column-gap: 10px;
+  padding-left: 450px;
 }
-input{
-    width: 200px;
-  height: 30px;
+
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: red;
+}
+input {
+  width: 200px;
+  height: 40px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color:plum;
+  background-color: plum;
   color: #333;
   font-size: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.result-container {
+  margin-top: 20px;
+  margin-left: 220px;
+}
+.result-container h1 {
+  color: #121212;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
 }
 
 option {
-
-    padding: 20px;
+  padding: 20px;
 }
 
-select{
-    padding: 10px;
-    background-color:yellow;
-width: 140px;
-height: 40px;
-    color: #333;
+select {
+  padding: 10px;
+  background-color: yellow;
+  width: 140px;
+  height: 40px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
 }
 
-option{
-    padding: 50px;
+option {
+  padding: 50px;
 }

@@ -7,26 +7,20 @@
     <title>Document</title>
   </head>
   <body>
-
-    <!-- 1 ci sade usul -->
-
-    <!-- <input type="text" id="first" placeholder="birinci eded">
-<button id="calculate">Hesabla</button> -->
-
-
-    <!--  2 ci usul -->
-
-   
-    <input type="number" id="first" placeholder="Birinci Eded" />
-    <select id="operator">
-      <option value="+">Üstəgəl</option>
-      <option value="-">Çıx</option>
-      <option value="*">Vur</option>
-      <option value="/">Böl</option>
-    </select>
-    <input type="number" id="second" placeholder="Ikinci Eded" />
-    <button id="calculate">Hesabla</button>
-    <h1 id="result"></h1>
+    <div class="calculator-container">
+      <input type="number" id="first" placeholder="First number" />
+      <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="number" id="second" placeholder="Second number" />
+      <button id="calculate">Calculate</button>
+      <div class="result-container">
+        <h1 id="result"></h1>
+      </div>
+    </div>
 
     <script src="index.js"></script>
   </body>
