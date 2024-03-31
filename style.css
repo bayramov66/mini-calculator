@@ -8,11 +8,11 @@
 
 .calculator-container {
   padding-top: 150px;
-  column-gap: 10px;
   padding-left: 450px;
 }
 
 button {
+  margin-left: 10px;
   display: inline-block;
   padding: 12px 24px;
   background-color: #3498db;
@@ -29,6 +29,7 @@ button:hover {
   background-color: red;
 }
 input {
+  margin-left: 10px;
   width: 200px;
   height: 40px;
   border: 1px solid #ccc;
@@ -50,14 +51,16 @@ input {
 }
 
 option {
+  margin-left: 10px;
   padding: 20px;
 }
 
 select {
+  margin-left: 10px;
   padding: 10px;
   background-color: yellow;
   width: 140px;
-  height: 40px;
+  height: 45px;
   color: #333;
   text-align: center;
   font-weight: bold;
